@@ -1,0 +1,29 @@
+
+.packages-container{
+  margin-top: 3rem;
+  display: flex;
+  gap: 20px;
+}
+
+.packages-container-item{
+  padding: 1.5rem;
+  border: 1px solid var(--main-solid-orange);
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.packages-container-item p{
+  white-space: pre-line;
+}
+
+html[data-theme="dark"] .packages-container-item p{
+  color: #2B3F5B;
+}
+
+.packages-container-item button{
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+}

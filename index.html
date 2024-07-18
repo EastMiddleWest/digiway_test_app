@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <title>Digiway</title>
+</head>
+<body>
+  <header class="wrapper-container">
+    <nav class="nav-menu">
+      <a href="#">
+        <img src="/public/Logo.svg" alt="'logo" />
+      </a>
+      <ul class="header-menu">
+        <li>
+          <a href="#">Nasi Lekarze</a>
+        </li>
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+        <li>
+          <label class="dropdown" data-purpose="dropdown">
+            Programs
+            <input type="checkbox"/>
+            <img src="/public/icons/arrow_dropdown.svg" alt="" />
+            <ul>
+              <li>Option 1</li>
+              <li>Option 2</li>
+              <li>Option 3</li>
+            </ul>
+          </label>
+        </li>
+        <li>
+          <label class="dropdown" data-purpose="dropdown">
+            O nas
+            <input type="checkbox"/>
+            <img src="/public/icons/arrow_dropdown.svg" alt="" />
+            <ul>
+              <li>Option 1</li>
+              <li>Option 2</li>
+              <li>Option 3</li>
+            </ul>
+          </label>
+        </li>
+      </ul>
+      <ul class="control">
+        <li class="account-link">
+          <a href="#">
+            <img src="/public/icons/user_icon.svg" alt="account" width="15" height="17" />
+          </a>
+        </li>
+        <li>
+          <button class="btn-lite">Skontaktuj się z nami</button>
+        </li>
+        <li>
+          <select name="lang">
+            <option value="PL" >PL</option>
+            <option value="UKR" >UKR</option>
+          </select>
+        </li>
+        <li class="theme">
+          <label id="switch">
+            <input id="theme-switcher" type="checkbox" de/>
+            <span class="slider" ></span>
+            <span class="inactive">
+              <img src="/public/icons/sun_gray.svg" alt="" />
+              <img src="/public/icons/moon.svg" alt="" />
+            </span>
+          </label>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="wrapper-container">
+    <section class="actions">
+      <div class="actions_content">
+        <h2>
+          Aкції та Акційні пакети
+        </h2>
+        <p>
+          Ми завжди прагнемо підвищити рівень сервісу надаваних медичних послуг,
+          і вдячні вам за залишений позитивний відгук. Ми беремо до уваги всі коментарі та побажання,
+          які відносяться до нашої роботи. Дякуємо за ваш вибір.
+        </p>
+      </div>
+      <div class="actions_img-container">
+        <img src="/public/top_image.png" alt="" />
+        <div class="blured">
+          <img src="/public/medical_icon.svg" alt="" width="120" height="122" />
+        </div>
+      </div>
+    </section>
+    <section class="packages">
+      <h2>Пакети</h2>
+      <div class="packages-container">
+        <div class="packages-container-item">
+          <h4>УЗД всього організму для жінок</h4>
+          <p>УЗД всього організму для жінок
+            Щитовидна залоза
+            Молочні залози
+            Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)
+            Нирки та наднирокові залози
+            Органи малого тазу
+            Ціна — 2600 грн.
+            Ціна по акції — 1280 грн
+          </p>
+          <button class="btn-lite">
+            Переглянути детальніше
+          </button>
+        </div>
+        <div class="packages-container-item">
+          <h4>УЗД всього організму для жінок</h4>
+          <p>УЗД всього організму для жінок
+            Щитовидна залоза
+            Молочні залози
+            Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)
+            Нирки та наднирокові залози
+            Органи малого тазу
+            Ціна — 2600 грн.
+            Ціна по акції — 1280 грн
+          </p>
+          <button class="btn-lite">
+            Переглянути детальніше
+          </button>
+        </div>
+        <div class="packages-container-item">
+          <h4>УЗД всього організму для жінок</h4>
+          <p>УЗД всього організму для жінок
+            Щитовидна залоза
+            Молочні залози
+            Органи черевної порожнини ( печінка, жовчний міхур, підшлункова залоза, селезінка)
+            Нирки та наднирокові залози
+            Органи малого тазу
+            Ціна — 2600 грн.
+            Ціна по акції — 1280 грн
+          </p>
+          <button class="btn-lite">
+            Переглянути детальніше
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="promotional-offers">
+      <h2>Акційні пропозиції</h2>
+      <div class="promotional-offers-content">
+        <div class="img-slider">
+          <button class="img-slider-btn-prev" id="prev">
+            <img src="/public/icons/arrow.svg" alt="prev" />
+          </button>
+          <div class="img-slider-item-container" id="slider">
+            <div class="img-slider-item">
+              <div class="img-wrapper">
+                <img src="/public/pic_1.png" alt="" width="100%" height="100%"  />
+              </div>
+              <div class="img-slider-item-content">
+                <h3>Акція "-40% на пробне заняття з кінезітерапії"</h3>
+                <p>Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                <a href="#">Переглянути детальніше</a>
+              </div>
+            </div>
+            <div class="img-slider-item">
+              <div class="img-wrapper">
+                <img src="/public/pic_2.jpg" alt="" width="100%" height="100%"  />
+              </div>
+              <div class="img-slider-item-content">
+                <h3>Акція "-40% на пробне заняття з кінезітерапії"</h3>
+                <p>Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                <a href="#">Переглянути детальніше</a>
+              </div>
+            </div>
+            <div class="img-slider-item">
+              <div class="img-wrapper">
+                <img src="/public/pic_3.jpg" alt="" width="100%" height="100%" />
+              </div>
+              <div class="img-slider-item-content">
+                <h3>Акція "-40% на пробне заняття з кінезітерапії"</h3>
+                <p>Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                <a href="#">Переглянути детальніше</a>
+              </div>
+            </div>
+            <div class="img-slider-item">
+              <div class="img-wrapper">
+                <img src="/public/pic_4.jpg" alt="" width="100%" height="100%" />
+              </div>
+              <div class="img-slider-item-content">
+                <h3>Акція "-40% на пробне заняття з кінезітерапії"</h3>
+                <p>Маєте чудову нагоду потурбуватись про власне здоров’я за вигідною пропозицією вартістю 680 408 грн.</p>
+                <a href="#">Переглянути детальніше</a>
+              </div>
+            </div>
+          </div>
+          <button class="img-slider-btn-next" id="next">
+            <img src="/public/icons/arrow.svg" alt="prev" />
+          </button>
+        </div>
+        <form id="contact-form">
+          <h3>Czekamy na Ciebie!</h3>
+          <div class="input-container">
+            <span>Imię i nazwisko</span>
+            <input type="text" placeholder="Agnieszka Kowalczyk" />
+          </div>
+          <div class="input-container">
+            <span>Phone</span>
+            <input type="tel" placeholder="+48 XXX XXX XXX" pattern="+48 [0-9]{3} [0-9]{3} [0-9]{3}" size="12" />
+          </div>
+          <div class="input-container">
+            <span>E-mail</span>
+            <input type="email" placeholder="name@gmail.com" />
+          </div>
+          <label>
+            <input type="checkbox" checked />
+            <span></span>
+            <p>
+              Wypełnienie formularza zgłoszeniowego jest równoznaczne z wyrażeniem zgody na przetwarzanie danych osobowych,
+              otrzymywanie newslettera, oraz kontakt telefoniczny
+            </p>
+          </label>
+          <button>Wyślij</button>
+        </form>
+      </div>
+    </section>
+    <section class="price-list">
+      <h2>Прайс-лист</h2>
+      <div class="price-list-container">
+      <div class="price-list-content">
+        <div class="price-list-head">
+          <span>Kod</span>
+          <span>Konsultacje</span>
+          <span>Cena brutto</span>
+        </div>
+        <ul class="price-list-items">
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Telekonsultacja anestezjologiczna</span>
+            <span>190 zł </span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+        </ul>
+        <div class="price-list-head">
+          <span>Kod</span>
+          <span>Badania</span>
+          <span>Cena brutto</span>
+        </div>
+        <ul class="price-list-items">
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Telekonsultacja anestezjologiczna</span>
+            <span>190 zł </span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+        </ul>
+        <div class="price-list-head">
+          <span>Kod</span>
+          <span>Badania</span>
+          <span>Cena brutto</span>
+        </div>
+        <ul class="price-list-items">
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Telekonsultacja anestezjologiczna</span>
+            <span>190 zł </span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+          <li>
+            <span>89.000</span>
+            <span>Konsultacja anestezjologiczna </span>
+            <span> 280 zł</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </section>
+    <section class="contact">
+      <div class="contact-title">
+        <img src="/public/Logo_wide.svg" alt="" />
+        <h1>Twój</h1>
+        <h1>kompleksowy przegląd</h1>
+        <h1>stanu zdrowia</h1>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info-content">
+          <p>W razie jakichkolwiek pytań, zadzwoń</p>
+          <p>+48 00 000 00 00</p>
+          <p>Pon. - Pt.: 07:00-20:00</p>
+        </div>
+        <img src="/public/map.svg" alt="" />
+        <div class="contact-info-content">
+          <p>Nasz adres e-mail</p>
+          <p>info@lorem.center</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrapper-container">
+    <div class="footer-info">
+      <p>
+        Jakiekolwiek wykorzystanie lub kopiowanie wybranych materiałów ze strony jest dozwolone tylko za zgodą właściciela
+        praw autorskich i tylko z powołaniem się na źródło.
+      </p>
+      <div class="payment-icons">
+        <img src="/public/icons/mastercard_icon.svg" alt=""/>
+        <img src="/public/icons/visa_icon.svg" alt="" />
+      </div>
+    </div>
+    <div class="footer-links">
+      <nav class="footer-menu">
+        <ul>
+          <li>
+            <a href="#">O nas</a>
+          </li>
+          <li>
+            <a href="#">Usługi</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Praca</a>
+          </li>
+          <li>
+            <a href="#">Cennik</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <div>
+          <a href="#">Lokalizacja</a>
+        </div>
+        <div>
+          <a href="#">Skontaktuj się z nami</a>
+        </div>
+      </div>
+      <div class="social">
+        <a>
+          <img src="/public/icons/instagram_icon.svg" alt="" />
+        </a>
+        <a>
+          <img src="/public/icons/facebook_icon.svg" alt="" />
+        </a>
+        <a>
+          <img src="/public/icons/linkedin_icon.svg" alt="" />
+        </a>
+        <a>
+          <img src="/public/icons/youtube_icon.svg" alt="" />
+        </a>
+      </div>
+    </div>
+    <ul class="policy">
+      <li>POLITYKA PRYWATNOŚCI</li>
+      <li>REGULAMIN</li>
+      <li>PRZYGOTOWANIE DO BADAŃ</li>
+      <li>INFORMACJA O PRAWACH PACJENTA</li>
+      <li>POLITYKA COOKIE</li>
+    </ul>
+  </footer>
+  <script src="script.js" ></script>
+</body>
+</html>

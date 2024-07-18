@@ -1,0 +1,29 @@
+
+.actions{
+  margin: 88px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions_img-container{
+  display: flex;
+  align-items: center;
+}
+
+.actions_img-container .blured{
+  margin-left: -97px;
+  width: 395px;
+  height: 425px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 197.5px;
+  border-top-right-radius: 197.5px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(from #F1EFE9B2 r g b);
+}
+
+.actions_content{
+  max-width: 413px;
+}

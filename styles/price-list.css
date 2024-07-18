@@ -1,0 +1,67 @@
+.price-list-container{
+  background-color: #fff;
+  padding: 48px 60px 48px 108px;
+}
+
+.price-list-content{
+  height: 858px;
+  padding-right: 40px;
+  overflow-y: scroll;
+  scrollbar-color: var(--main-solid-orange) var(--bg-color);
+  scrollbar-width: thin;
+}
+
+.price-list-head{
+  background-color: var(--main-light-orange);
+  border: 1px solid var(--main-solid-orange);
+  padding: 16px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+html[data-theme="dark"] .price-list-head{
+  color: var(--bg-color);
+}
+
+.price-list-head > span{
+  display: inline-block;
+  min-width: 197px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oranienbaum", serif;
+}
+
+.price-list-items{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin: 26px 0;
+}
+
+.price-list-items li{
+  background-color: var(--bg-color);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-list-items li span{
+  display: inline-block;
+  min-width: 197px;
+  color: #000;
+  font-size: 24px;
+  font-family: "Oranienbaum", serif;
+  text-align: center;
+}
+
+html[data-theme="dark"] .price-list-items li span{
+  color: #fff;
+}
+
+.price-list-items li span:nth-child(2){
+  flex-grow: 1;
+  text-align: left;
+}
